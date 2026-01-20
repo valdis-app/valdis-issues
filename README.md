@@ -88,3 +88,12 @@ open -a Valdis --args --reset-data --reset-settings --reset-history
 
 If you believe you found a security issue, **do not** open a public issue.
 Email: security@valdis.app
+
+
+## Thanks ❤️
+
+- **[Ollama](https://github.com/ollama/ollama)** — local LLM runtime
+- **[WhisperKit](https://github.com/argmaxinc/WhisperKit)** (by **Argmax**) — on-device speech-to-text
+- **[Vapor](https://github.com/vapor/vapor)** — WebSocket server backend on macOS
+- **[Ready Player Me](https://readyplayer.me/)** — avatars
+- **[Swift Markdown UI](https://github.com/gonzalezreal/swift-markdown-ui)** — Markdown rendering
