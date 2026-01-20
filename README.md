@@ -59,7 +59,7 @@ If Valdis behaves strangely after an update (or when asked by a maintainer), you
 ⚠️ **These actions are destructive and cannot be undone.** Only use them if you understand what will be deleted.
 
 - `--reset-settings` — resets app settings
-- `--reset-data` — resets local app data
+- `--reset-data` — resets app data (provider instances, model selections, cached state)
 - `--reset-history` — clears chat history
 
 ### Run (recommended)
