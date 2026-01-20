@@ -30,7 +30,6 @@ Valdis is **closed-source** — no code lives here.
    - Screenshots / screen recording (if helpful)
    - Logs **only if you’re comfortable sharing them** (Valdis is privacy-first; logs don’t include chat/prompt content
      or secrets)
-
 ## Debug logging
 
 Valdis includes an optional Debug logging mode. When enabled, you can copy recent app logs to include in bug reports.
@@ -51,6 +50,29 @@ Valdis includes an optional Debug logging mode. When enabled, you can copy recen
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | <img src="images/mac-logs-copy-button.png" alt="macOS Copy logs button" height="400" /> | <img src="images/ios-logs-copy-button.png" alt="iOS Copy logs button" height="400" /> |
 
+
+
+## Reset flags (macOS)
+
+If Valdis behaves strangely after an update (or when asked by a maintainer), you can start from a clean state using command‑line reset flags.
+
+⚠️ **These actions are destructive and cannot be undone.** Only use them if you understand what will be deleted.
+
+- `--reset-settings` — resets app settings
+- `--reset-data` — resets local app data
+- `--reset-history` — clears chat history
+
+### Run (recommended)
+
+```bash
+open -a Valdis --args --reset-data --reset-settings --reset-history
+```
+
+### Run (direct binary)
+
+```bash
+/Applications/Valdis.app/Contents/MacOS/Valdis --reset-data --reset-settings --reset-history
+```
 
 ## What to report here
 
